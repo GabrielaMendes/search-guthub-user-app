@@ -4,7 +4,7 @@
 
 @layer base {
 	body {
-		@apply m-0 w-screen h-full min-h-screen font-space-mono text-base bg-very-light-blue text-dark-gray dark:bg-very-dark-blue dark:text-white;
+		@apply m-0 w-screen h-full min-h-screen font-space-mono text-base bg-very-light-blue text-dark-gray dark:bg-very-dark-blue dark:text-white flex items-center justify-center;
 	}
 
 	h1 {
@@ -22,4 +22,10 @@
 	h4 {
 		@apply text-sm;
 	}
+}
+
+@layer utilities {
+  .change-colors {
+    @apply transition-colors duration-200 ease-linear
+  }
 }
