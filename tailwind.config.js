@@ -13,6 +13,10 @@ module.exports = {
 			xl: ["1.375rem", "2.0625rem"], // 22px 33px
 			"2xl": ["1.625rem", "2.375rem"], // 26px 38px
 		},
+		boxShadow: {
+			strong: "0 4px 4px rgba(0, 0, 0, 0.25)",
+			light: "0 16px 30px -10px rgba(70, 96, 187, 0.2)",
+		},
 		extend: {
 			colors: {
 				"primary-blue": "#0079ff",
