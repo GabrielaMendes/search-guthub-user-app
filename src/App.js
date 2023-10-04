@@ -8,10 +8,10 @@ function App() {
   function handleSearchUser() {}
 
 	return (
-		<div className="max-w-full w-[780px] p-6">
-      <Header />
-      <Search onSearchUser={handleSearchUser} />
-    </div>
+		<div className="w-full max-w-[780px] p-6">
+			<Header />
+			<Search onSearchUser={handleSearchUser} />
+		</div>
 	);
 }
 

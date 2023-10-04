@@ -4,7 +4,11 @@
 
 @layer base {
 	body {
-		@apply m-0 w-screen h-full min-h-screen font-space-mono text-base bg-very-light-blue text-dark-gray dark:bg-almost-black dark:text-white flex items-center justify-center;
+		@apply font-space-mono text-base max-sm:text-sm bg-very-light-blue text-dark-gray dark:bg-almost-black dark:text-white ;
+	}
+
+	#root {
+		@apply w-screen h-full min-h-screen flex items-center justify-center;
 	}
 
 	h1 {
@@ -25,13 +29,13 @@
 }
 
 @layer utilities {
-  .change-colors {
-    @apply transition-colors duration-200 ease-linear
-  }
+	.change-colors {
+		@apply transition-colors duration-200 ease-linear;
+	}
 }
 
 @layer components {
-  .card {
-    @apply rounded-xl bg-off-white dark:bg-very-dark-blue
-  }
+	.card {
+		@apply w-full rounded-xl bg-off-white dark:bg-very-dark-blue;
+	}
 }
