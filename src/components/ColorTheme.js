@@ -10,7 +10,7 @@ export default function ColorTheme() {
 	return (
 		<button
 			onClick={handleToggleTheme}
-			className="flex items-center gap-3 text-sm tracking-[1.5px] text-grayish-blue hover:text-dark-gray dark:text-white dark:hover:text-grayish-blue change-colors"
+			className="flex items-center gap-3 text-sm tracking-[1.5px] text-bluish-gray hover:text-dark-gray dark:text-white dark:hover:text-grayish-blue change-colors"
 		>
 			<span className="uppercase font-bold">{colorTheme}</span>
 
